@@ -1,0 +1,6 @@
+@echo off
+echo Downloading Specified XML File...
+setup.exe /download %1
+cls
+echo Installing Specified XML File...
+setup.exe /configure %1
